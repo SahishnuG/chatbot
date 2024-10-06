@@ -11,7 +11,7 @@ const Chatbot = () => {
       // Simulating a response from the chatbot
       setMessages((prev) => [
         ...prev,
-        { text: 'Hello! How can I help you?', fromUser: false }
+        { text: 'Hello! what do wnat to know about IEEE?', fromUser: false }
       ]);
       setInput('');
     }
