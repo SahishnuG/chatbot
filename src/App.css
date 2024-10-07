@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+input {
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #3b82f6; /* Change the border color on focus */
+}
+
+button:hover {
+  background-color: #2563eb; /* Darker shade for hover effect */
+}
