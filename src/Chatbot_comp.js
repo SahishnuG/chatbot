@@ -19,10 +19,10 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row w-full max-w-4xl p-6 mx-auto">
+    <div className="bg-[#060b28] flex flex-col md:flex-row w-screen h-screen p-6 mx-auto">
       {/* Chatbot Image */}
       <div className="hidden md:block md:w-1/2 p-4">
-        <img src={chatbotImage}  alt="Chatbot" className="w-full h-auto " />
+        <img src={chatbotImage}  alt="Chatbot" className="h-full w-auto mx-auto" />
       </div>
 
       {/* Chatbot Interface */}
