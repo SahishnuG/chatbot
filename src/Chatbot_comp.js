@@ -50,9 +50,9 @@ const Chatbot = () => {
           </button>
         </form>
         {/* Optional: Add a footer with club information */}
-        <footer className="mt-4 text-center text-xs text-gray-500">
+        {/* <footer className="mt-4 text-center text-xs text-gray-500">
           &copy; 2024 IEEE VIT Pune. All rights reserved.
-        </footer>
+        </footer> */}
       </div>
     </div>
   );
